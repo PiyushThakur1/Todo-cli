@@ -1,0 +1,22 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI-based Todo application built using Node.js",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PiyushThakur1/ToDo---Cli.git"
+  },
+  "keywords": ["todo", "cli", "nodejs"],
+  "author": "Piyush Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiyushThakur1/ToDo---Cli/issues"
+  },
+  "homepage": "https://github.com/PiyushThakur1/ToDo---Cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^14.0.0"
+  }
+}
