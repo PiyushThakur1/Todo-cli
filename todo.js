@@ -34,7 +34,7 @@ program
 
 program
   .command("done <index>")
-  .description("Mark Task as done (1-based indexing)")~
+  .description("Mark Task as done (1-based indexing)")
   .action((index) => {
     const todos = loadTodos();
     const i = Number(index) - 1;
@@ -45,6 +45,7 @@ program
     saveTodos(todos);
     console.log("Task Marked as Done");
   });
+
 
 program
   .command("delete <index>")
